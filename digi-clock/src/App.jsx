@@ -1,10 +1,10 @@
-import { useState } from 'react'
+import DigitalClock from "./DigitalClock.jsx";
 
 function App() {
 
   return (
     <>
-      
+      <DigitalClock />
     </>
   )
 }
