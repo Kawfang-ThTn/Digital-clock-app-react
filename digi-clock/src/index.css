@@ -4,12 +4,28 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
 }
 
 .clock-container{
-
+    backdrop-filter: blur(44px);
+    width: 75vw;
+    padding: 10px 0;
 }
 
 .clock{
-
+    color: white;
+    font-size: 6rem;
+    font-weight: bold;
+    font-family: monospace;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.75);
+    text-align: center;
 }
